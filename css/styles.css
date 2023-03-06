@@ -15,11 +15,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-secondary-text);
 }
-.logo-header {
+.link {
 text-decoration: none;
+}
+.logo-header {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
-text-decoration: none;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
@@ -31,6 +32,7 @@ color: var(--color-main-text);
 }
 .list {
 list-style: none;
+font-style: normal;
 }
 .site-nav {
 font-weight: 500;
@@ -39,10 +41,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-main-text);
 }
-.link {
-text-decoration: none;
-}
-
 .site-nav .link {
 color: var(--color-main-text);
 font-weight: 500;
@@ -161,6 +159,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+color: var(--color-main-text);
 }
 .section-team-text {
 font-size: 16px;
