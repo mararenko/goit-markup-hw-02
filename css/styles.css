@@ -32,7 +32,6 @@ color: var(--color-main-text);
 }
 .list {
 list-style: none;
-font-style: normal;
 }
 .site-nav {
 font-weight: 500;
@@ -107,7 +106,9 @@ font-size: 18px;
 line-height: 1.2;
 text-transform: uppercase;
 }
-
+.site-nav-address {
+font-style: normal;
+}
 
 .hero {
 color: #ffffff;
@@ -141,7 +142,7 @@ background-color: var(--accent-pressed-state);
 .features-list {
 text-align: left;
 }
-.section-team-title {
+.section-h3-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -156,7 +157,7 @@ text-align: center;
 text-align: center;    
 }
 .logo-header-white {
-    color: #f4f4fd;
+color: #f4f4fd;
 }
 .section-title {
 font-weight: 700;
