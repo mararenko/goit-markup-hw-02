@@ -29,15 +29,17 @@ color: var(--accent);
 .logo-header-blue {
 color: var(--color-main-text);
 }
-
-.site-nav {
+.list {
 list-style: none;
+}
+.site-nav {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-main-text);
 }
+
 .link {
 color: var(--color-main-text);
 text-decoration: none;
@@ -60,7 +62,6 @@ color: var(--accent-pressed-state)
 
 
 .btn-list{
-list-style: none;
 text-align: center;   
 }
 .btn-nav {
@@ -79,9 +80,6 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
 border-radius: 4px;
 border: none;
 }
-.gallery-list {
-list-style: none;
-}
 .gallery-list-title {
 font-weight: 500;
 font-size: 20px;
@@ -90,7 +88,7 @@ color: var(--color-main-text);
 }
 .section-address {
 background-color: var(--secondary-bg-color);
-color: #ffffff;
+text-align: left;
 }
 .section-address {
 color: #E7E9FC;
@@ -135,7 +133,6 @@ cursor: pointer;
 background-color: var(--accent-pressed-state);
 }
 .features-list {
-list-style: none;
 text-align: left;
 }
 .h3-title {
@@ -157,6 +154,8 @@ list-style: none;
 text-align: center;
 }
 .section-list {
-list-style: none;
 text-align: center;    
+}
+.logo-header-white {
+    color: #FFFFFF;
 }
