@@ -137,19 +137,12 @@ background-color: var(--accent-pressed-state);
 .features-list {
 text-align: left;
 }
-.h3-title {
+.section-team-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
 color: var(--color-main-text);
-}
-.h2-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-transform: capitalize;
-color: var(--secondary-bg-color);
-text-align: center;
 }
 .works-list {
 list-style: none;
@@ -160,4 +153,16 @@ text-align: center;
 }
 .logo-header-white {
     color: #f4f4fd;
+}
+.section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.section-team-text {
+font-size: 16px;
+line-height: 1.5;
 }
