@@ -69,7 +69,7 @@ font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.04em
+letter-spacing: 0.04em;
 cursor: pointer;
 background: var(--color-bg-team);
 border: 1px solid #E7E9FC;
@@ -89,6 +89,7 @@ border: none;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
 color: var(--color-main-text);
 }
 .section-address {
