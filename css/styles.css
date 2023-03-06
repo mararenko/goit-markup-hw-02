@@ -16,6 +16,7 @@ letter-spacing: 0.02em;
 color: var(--color-secondary-text);
 }
 .logo-header {
+text-decoration: none;
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 text-decoration: none;
@@ -23,14 +24,19 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--color-main-text);
+color: var(--accent);
 }
 .logo-header-blue {
-color: #4D5AE5;
+color: var(--color-main-text);
 }
 
 .site-nav {
 list-style: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-main-text);
 }
 .link {
 color: var(--color-main-text);
@@ -117,9 +123,10 @@ background: var(--accent);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.04em;
 border: none;
 line-height: 1.5;
-letter-spacing: 0.04em;
 color: #ffffff;
 cursor: pointer;
 }
